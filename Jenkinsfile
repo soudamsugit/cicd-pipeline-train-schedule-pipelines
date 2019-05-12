@@ -1,5 +1,5 @@
 pipeline {
-agents any
+agent any
   stages('Build'){
     steps {
       echo "the build is running"
